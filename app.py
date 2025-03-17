@@ -174,7 +174,7 @@ with st.sidebar:
     )
 
 # Main app
-st.title("🧠 Learning Mentor")
+st.title("🧠 AI Mentor")
 
 # Chat input
 user_input = st.text_input("What would you like to learn today?", key="user_input", value=st.session_state.question)
@@ -248,7 +248,7 @@ for message in st.session_state.chat_history:
     if message["role"] == "user":
         st.markdown(f"""
         <div class="chat-message user">
-            <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg" class="avatar">
+            <img src="https://wk3m7p3tcm.ufs.sh/f/44KvS9m9Lau6a2GMvD30I2Zmjeu9h8k7woP5J3XdGNTtRK1A" class="avatar">
             <div>
                 <b>You</b>
                 <br>{message["content"]}
@@ -258,7 +258,7 @@ for message in st.session_state.chat_history:
     else:
         st.markdown(f"""
         <div class="chat-message bot">
-            <img src="https://www.freepik.com/free-vector/graident-ai-robot-vectorart_125887871.htm#fromView=search&page=1&position=1&uuid=91e0a338-6e90-4263-b948-2a36626a403c&query=bot" class="avatar">
+            <img src="https://wk3m7p3tcm.ufs.sh/f/44KvS9m9Lau6DPqsGq5KzsTIoi5GywbELkVQBpWHenYUu349" class="avatar">
             <div>
                 <b>Learning Mentor</b>
                 <br>{message["content"]}
